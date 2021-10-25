@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2021-10-25T20:36:24.875Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 YaBrowser/21.9.1.686 Yowser/2.5 Safari/537.36" version="15.5.9" etag="cAj83x0OEtjsfjllcm7D" type="github"><diagram id="qRVaTHBMaB2BrEHtHlQH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-25T20:47:57.522Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 YaBrowser/21.9.1.686 Yowser/2.5 Safari/537.36" etag="9QdUzfs-EORpzr-_7O2q" version="15.5.9" type="github">
+  <diagram id="qRVaTHBMaB2BrEHtHlQH" name="Page-1">
+    <mxGraphModel dx="1024" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-3" value="NumericalMethod" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="20" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-4" value="# x: Vector&lt;double&gt;&#xa;# y: Vector&lt;double&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="f6-SJEoR-iblRRPtxHUO-3">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="f6-SJEoR-iblRRPtxHUO-3">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-6" value="+ findGte: Vector&lt;double&gt;&#xa;+ findLte: Vector&lt;double&gt;&#xa;+ getX: Vector&lt;double&gt;&#xa;+ getY: Vector&lt;double&gt;&#xa;+ calculateGraph: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="f6-SJEoR-iblRRPtxHUO-3">
+          <mxGeometry y="78" width="160" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.403;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" edge="1" parent="1" source="f6-SJEoR-iblRRPtxHUO-7" target="f6-SJEoR-iblRRPtxHUO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-7" value="Euler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="260" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-8" value="# x: Vector&lt;double&gt;&#xa;# y: Vector&lt;double&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="f6-SJEoR-iblRRPtxHUO-7">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="f6-SJEoR-iblRRPtxHUO-7">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-10" value="+ findGte: Vector&lt;double&gt;&#xa;+ findLte: Vector&lt;double&gt;&#xa;+ getX: Vector&lt;double&gt;&#xa;+ getY: Vector&lt;double&gt;&#xa;+ calculateGraph: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="f6-SJEoR-iblRRPtxHUO-7">
+          <mxGeometry y="78" width="160" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" edge="1" parent="1" source="f6-SJEoR-iblRRPtxHUO-11" target="f6-SJEoR-iblRRPtxHUO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-11" value="ImprovedEuler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="260" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-12" value="# x: Vector&lt;double&gt;&#xa;# y: Vector&lt;double&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="f6-SJEoR-iblRRPtxHUO-11">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="f6-SJEoR-iblRRPtxHUO-11">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-14" value="+ findGte: Vector&lt;double&gt;&#xa;+ findLte: Vector&lt;double&gt;&#xa;+ getX: Vector&lt;double&gt;&#xa;+ getY: Vector&lt;double&gt;&#xa;+ calculateGraph: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="f6-SJEoR-iblRRPtxHUO-11">
+          <mxGeometry y="78" width="160" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.013;entryY=0.871;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" edge="1" parent="1" source="f6-SJEoR-iblRRPtxHUO-15" target="f6-SJEoR-iblRRPtxHUO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-15" value="RungeKutta" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-16" value="# x: Vector&lt;double&gt;&#xa;# y: Vector&lt;double&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="f6-SJEoR-iblRRPtxHUO-15">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="f6-SJEoR-iblRRPtxHUO-15">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-18" value="+ findGte: Vector&lt;double&gt;&#xa;+ findLte: Vector&lt;double&gt;&#xa;+ getX: Vector&lt;double&gt;&#xa;+ getY: Vector&lt;double&gt;&#xa;+ calculateGraph: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="f6-SJEoR-iblRRPtxHUO-15">
+          <mxGeometry y="78" width="160" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-23" value="Exact" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="10" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-24" value="# x: Vector&lt;double&gt;&#xa;# y: Vector&lt;double&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="f6-SJEoR-iblRRPtxHUO-23">
+          <mxGeometry y="26" width="210" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="f6-SJEoR-iblRRPtxHUO-23">
+          <mxGeometry y="70" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="f6-SJEoR-iblRRPtxHUO-26" value="+ getX: Vector&lt;double&gt;&#xa;+ getY: Vector&lt;double&gt;&#xa;+ calculateGraph: void&#xa;+ setConstant: void&#xa;+ getSeries: Vector&lt;Vector&lt;double&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="f6-SJEoR-iblRRPtxHUO-23">
+          <mxGeometry y="78" width="210" height="82" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
